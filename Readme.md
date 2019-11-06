@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Алёна Малищук](https://up.htmlacademy.ru/adaptive/18/user/976477).
-* Наставник: `Неизвестно`.
+* Наставник: [Иван Мулярчик] (https://htmlacademy.ru/profile/ivanmuliarchyk/382187).
 
 ---
 
