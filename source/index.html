@@ -2,9 +2,10 @@
 <html lang="ru">
   <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
-    <title>HTML Academy: Пинк</title>
+    <title>Пинк</title>
   </head>
   <body>
 	<header class="page-header">
@@ -13,7 +14,7 @@
   		</a>
   		<button class="btn-header__close">
   			<svg xmlns="http://www.w3.org/2000/svg" width="23.867" height="23.867" class="icon icon-btn" version="1" viewBox="0 0 23.867 23.867">
-    		<path fill="#FFF" d="M15.087 11.933l8.56-8.559a.75.75 0 0 0 0-1.061L21.554.22a.747.747 0 0 0-1.06 0l-8.561 8.56L3.373.22a.771.771 0 0 0-1.061 0L.22 2.313a.75.75 0 0 0 0 1.061l8.56 8.559-8.56 8.559a.751.751 0 0 0 0 1.062l2.093 2.094a.744.744 0 0 0 1.06 0l8.561-8.56 8.56 8.56a.746.746 0 0 0 1.06 0l2.093-2.094a.751.751 0 0 0 0-1.062l-8.56-8.559z"/>
+    		  <path fill="#FFF" d="M15.087 11.933l8.56-8.559a.75.75 0 0 0 0-1.061L21.554.22a.747.747 0 0 0-1.06 0l-8.561 8.56L3.373.22a.771.771 0 0 0-1.061 0L.22 2.313a.75.75 0 0 0 0 1.061l8.56 8.559-8.56 8.559a.751.751 0 0 0 0 1.062l2.093 2.094a.744.744 0 0 0 1.06 0l8.561-8.56 8.56 8.56a.746.746 0 0 0 1.06 0l2.093-2.094a.751.751 0 0 0 0-1.062l-8.56-8.559z"/>
 			</svg>
   		</button>	
   		<nav class="main-nav">
@@ -36,7 +37,7 @@
         </nav>
     </header>
     <main class="page-main">
-    	<h1 class="visually-hidden">Взгляните на жизнь иначе!</h1>
+    	<h2 class="visually-hidden">Взгляните на жизнь иначе!</h2>
     		<a class="page-main__iphone">
     			<img class="page-main__iphone" src="img/iphone-5-in-hand-png.png" width="320" height="314"
     			alt="Фото айфона в руке">
@@ -57,84 +58,83 @@
 				<h2 class="visually-hidden">Описание</h2>
 				<p class="description">Доступно для iPhone, iPad, Android,<br> Windows Phone, OS X, Windows 8
 				</p>
-    		
-    		<section class="advantages">
-    			<header class="advantages__header">
-    				<h2 class="visually-hidden">Преимущества</h2>
-    				<p class="advantages__header--heading">Устали от серости<br> мегаполиса?
-					Нам есть, что вам<br> предложить!</p>
-					<b class="advantages__mood">Поднимает настроение</b>
-					<p class="advantages__description">Приложение позволит вам победить<br> осеннюю хандру и депрессию<br> буквально в несколько кликов!</p>
-					<b class="advantages__mood">Меняет мир вокруг</b>
-					<p class="advantages__description">Сделайте снимок и украсьте его<br> смайликом или текстовой подписью,<br> чтобы усилить эффект</p>
-					<b class="advantages__mood">Заводит новых друзей</b>
-					<p class="advantages__description">Ставьте лайки, комментируйте,<br> делитесь фотографиями с друзьями и<br> заводите новых</p>
-					<p class="advantages__iphone">
-					<img src="img/iphone-screen-3.png"></p>
-					<section class="reviews">
-						<h2 class="visually-hidden">Отзывы о нас</h2>
+    			<section class="advantages">
+    				<div class="advantages__container">
+    					<h2 class="visually-hidden">Преимущества</h2>
+    					<p class="advantages__header">Устали от серости<br> мегаполиса?
+						Нам есть, что вам<br> предложить!</p>
+						<b class="advantages__mood">Поднимает настроение</b>
+						<p class="advantages__description">Приложение позволит вам победить<br> осеннюю хандру и депрессию<br> буквально в несколько кликов!</p>
+						<b class="advantages__mood">Меняет мир вокруг</b>
+						<p class="advantages__description">Сделайте снимок и украсьте его<br> смайликом или текстовой подписью,<br> чтобы усилить эффект</p>
+						<b class="advantages__mood">Заводит новых друзей</b>
+						<p class="advantages__description">Ставьте лайки, комментируйте,<br> делитесь фотографиями с друзьями и<br> заводите новых</p>
+						<p class="advantages__iphone">
+					</div>
+				</section>
+				<section class="reviews">
+					<h2 class="visually-hidden">Отзывы о нас</h2>
 						<div class="reviews__wrapper slider">
 							<blockquote class="reviews__item  slider__item">
 								<cite class="reviews__author-name">Николай Петров</cite>
-              					<p class="reviews__text">«Это приложение перевернуло мой мир<br> и позволило по-новому взглянуть на<br> привычные серые вещи! А еще я<br> познакомился со своей будущей женой<br> в комментариях к выложенной<br> фотографии!»</p>
-            				</blockquote>
-					</section>
-					<p class="reviews__toggles slider__toggles">
-            			<button class="slider__toggle" type="button"></button>
-            			<button class="slider__toggle" type="button"></button>
-            			<button class="slider__toggle" type="button"></button>
-          			</p>
-          			<section class="rate">
-          				<h2 class="visually-hidden">Предложения и тарифы</h2>
-          				<div class="rate__elem">
-          					<p class="rate__top">Стандарт<br> 3.99 usd</p>
-          				</div>
-          				<table class="rate__list">
-          					<tr>
-            					<td class="rate__value">розовый фильтр
-            					</td>
-            					<td class="rate__img">
-            						<svg xmlns="http://www.w3.org/2000/svg" width="21.698" height="16.09" version="1" viewBox="-82.357 4.875 21.698 16.09">
-    								<path d="M-60.953 5.167a.999.999 0 0 0-1.414 0L-75.75 18.551l-4.9-4.9a.999.999 0 1 0-1.414 1.414l5.607 5.607a.997.997 0 0 0 1.414 0l14.09-14c.391-.481.391-1.114 0-1.505z"/>
-									</svg>
-            					</td>
-          					</tr>
-          					<tr>
-            					<td class="rate__value">смайлики</td>
-            					<td class="rate__img">
-            						<svg xmlns="http://www.w3.org/2000/svg" width="21.698" height="16.09" version="1" viewBox="-82.357 4.875 21.698 16.09">
-    								<path d="M-60.953 5.167a.999.999 0 0 0-1.414 0L-75.75 18.551l-4.9-4.9a.999.999 0 1 0-1.414 1.414l5.607 5.607a.997.997 0 0 0 1.414 0l14.09-14c.391-.481.391-1.114 0-1.505z"/>
-									</svg>
-            					</td>
-            				</tr>
-            				<tr>
-            					<td class="rate__value">комментарии</td>
-            					<td class="rate__img">
-            						<svg xmlns="http://www.w3.org/2000/svg" width="26.752" height="26.752" version="1" viewBox="0 0 26.752 26.752">
-    								<path d="M15.497 13.376L26.312 2.562A1.5 1.5 0 1 0 24.191.441L13.376 11.255 2.562.439A1.5 1.5 0 1 0 .441 2.56l10.814 10.815L.439 24.19a1.5 1.5 0 1 0 2.122 2.121l10.815-10.814L24.19 26.312c.293.293.677.439 1.061.439s.768-.146 1.061-.439a1.5 1.5 0 0 0 0-2.121L15.497 13.376z"/>
-									</svg>
-								</td>
-							</tr>
-						</table>
-						<div class="toggle toggle__slider">
-							<p class="reviews__toggles slider__toggles">
+								<p class="reviews__text">«Это приложение перевернуло мой мир<br> и позволило по-новому взглянуть на<br> привычные серые вещи! А еще я<br> познакомился со своей будущей женой<br> в комментариях к выложенной<br> фотографии!»</p>
+							</blockquote>
+						</div>
+						<p class="reviews__toggles slider__toggles">
+							<button class="slider__toggle" type="button"></button>
+							<button class="slider__toggle" type="button"></button>
+							<button class="slider__toggle" type="button"></button>
+						</p>
+				</section>
+          		<section class="rate">
+					<h2 class="visually-hidden">Предложения и тарифы</h2>
+					<div class="rate__elem">
+						<p class="rate__top">Стандарт<br> 3.99 usd</p>
+					</div>
+					<table class="rate__list">
+						<tr>
+							<td class="rate__value">розовый фильтр</td>
+							<td class="rate__img">
+								<svg xmlns="http://www.w3.org/2000/svg" width="21.698" height="16.09" version="1" viewBox="-82.357 4.875 21.698 16.09">
+									<path d="M-60.953 5.167a.999.999 0 0 0-1.414 0L-75.75 18.551l-4.9-4.9a.999.999 0 1 0-1.414 1.414l5.607 5.607a.997.997 0 0 0 1.414 0l14.09-14c.391-.481.391-1.114 0-1.505z"/>
+								</svg>
+							</td>
+						</tr>
+						<tr>
+							<td class="rate__value">смайлики</td>
+							<td class="rate__img">
+								<svg xmlns="http://www.w3.org/2000/svg" width="21.698" height="16.09" version="1" viewBox="-82.357 4.875 21.698 16.09">
+									<path d="M-60.953 5.167a.999.999 0 0 0-1.414 0L-75.75 18.551l-4.9-4.9a.999.999 0 1 0-1.414 1.414l5.607 5.607a.997.997 0 0 0 1.414 0l14.09-14c.391-.481.391-1.114 0-1.505z"/>
+								</svg>
+							</td>
+						</tr>
+						<tr>
+							<td class="rate__value">комментарии</td>
+							<td class="rate__img">
+								<svg xmlns="http://www.w3.org/2000/svg" width="26.752" height="26.752" version="1" viewBox="0 0 26.752 26.752">
+									<path d="M15.497 13.376L26.312 2.562A1.5 1.5 0 1 0 24.191.441L13.376 11.255 2.562.439A1.5 1.5 0 1 0 .441 2.56l10.814 10.815L.439 24.19a1.5 1.5 0 1 0 2.122 2.121l10.815-10.814L24.19 26.312c.293.293.677.439 1.061.439s.768-.146 1.061-.439a1.5 1.5 0 0 0 0-2.121L15.497 13.376z"/>
+								</svg>
+							</td>
+						</tr>
+					</table>
+					<div class="toggle toggle__slider">
+						<p class="reviews__toggles slider__toggles">
 	            			<button class="slider__toggle" type="button"></button>
 	            			<button class="slider__toggle" type="button"></button>
 	            			<button class="slider__toggle" type="button"></button>
-          			    	</p>
-          			    </div>
-          			    <section class="info">
-          			    	<div class="info__contacts">
-								 <b class="info__title">Остались вопросы?<br>Свяжитесь с нами!</b>
-								 <p class="info__number">Звоните:</p>
-								 <a class="info__phone" href="tel:+78125556666">
-              					<span class="info__phone-mobile">Тел.:</span> +7 (812) 555-66-66
-           						 </a>
-           						 <p class="info__mail">Пишите:</p>
-           						 <a class="info__letter" href="mail@htmlacademy.ru">
-           						 <span class="info__mail--letter">
-           						 </span>mail@htmlacademy.ru</a>
-          						<p class="info__text">Приезжайте в гости: <br><a class="info__text--address" href="ул. Большая Конюшенная, 19/8">ул. Большая<br> Конюшенная, 19/8</a></p>
+          			    </p>
+          			</div>
+          			<section class="info">
+          			    <div class="info__contacts">
+							<b class="info__title">Остались вопросы?<br>Свяжитесь с нами!</b>
+							<p class="info__number">Звоните:</p>
+							<a class="info__phone" href="tel:+78125556666">
+							<span class="info__phone-mobile">Тел.:</span> +7 (812) 555-66-66</a>
+							<p class="info__mail">Пишите:</p>
+							<a class="info__letter" href="mail@htmlacademy.ru">
+							<span class="info info__mail--letter">
+							</span>mail@htmlacademy.ru</a>
+          						<p class="info__text">Приезжайте в гости: <br><a class="info info__text--address" href="ул. Большая Конюшенная, 19/8">ул. Большая<br> Конюшенная, 19/8</a></p>
           						<div class="map">
           							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533268!2d30.320858716070596!3d59.938716481876156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5MTE4Ng!5e0!3m2!1sru!2sua!4v1574195964964!5m2!1sru!2sua" width="320" height="625" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
           						</div>
