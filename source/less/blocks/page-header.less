@@ -1,10 +1,48 @@
 .page-header {
-    height: 64px;
-    background-color: #182164;
-    font-family: "OpenSans", Arial, sans-serif;
-    color: #fff;
-    box-shadow: 0px 1px 0 0 var(--black-two);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: @dark-color;
 }
+
+.page-header__logo_image {
+    height: 22px;
+    padding: 20px;  
+}
+
+@media (min-width: @tablet-width) {
+    .page-header__logo_image {
+        height: 40px;
+    }
+}
+
+@media (min-width: @desktop-width) {
+    .page-header__logo_image {
+        height: 40px;
+      }
+    }
+
+    .page-header__burger-menu {
+        height: 24px;
+        margin-left: 20px;
+        padding: 20px;  
+    }
+
+    @media (min-width: @tablet-width) {
+        .page-header__burger-menu {
+            height: 24px;
+        }
+    }
+
+    @media (min-width: @desktop-width) {
+        .page-header__burger-menu {
+            display: none;
+        }
+    }
+
+
+    
+
 
 
 
