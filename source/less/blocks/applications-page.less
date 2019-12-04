@@ -1,9 +1,27 @@
 .applications-page {
     display: flex;
+    min-width: 320px;
     justify-content: space-around;
-    height: 271px;
-    background-color: blue;
-    margin-top: 50px;
+    height: 306px;
+    background-color: @dark-color; 
 
+}
+
+@media (min-width: @tablet-width) {
+    .applications-page {
+        display: flex;
+        justify-content: space-around;
+        margin-right: 66px;
+        margin-top: 46px;
+    }
+}
+
+@media (min-width: @desktop-width) {
+    .applications-page {
+        display: flex;
+        justify-content: space-around;
+        margin-right: 177px;
+        margin-top: 67px;
+    }
 }
 

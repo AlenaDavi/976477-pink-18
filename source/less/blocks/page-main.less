@@ -1,27 +1,104 @@
 .page-main {
+    display: flex;
     min-width: 320px;
     margin: 0 auto;
-      
-    /* Временно для сетки */
-    min-height: 784px;
-    }
-      
+    margin-top: 200px;
+}
+
+.page-main__name {
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    color: @white-color;
+    margin-top: 50px;
+}
+
 .page-main__iphone {
     padding-top: 33px;
     padding-bottom: 60px;
 }
 
 .btn__iphone {
+    width: 281px;
+    height: 55px;
     padding: 20px 39px;
-    margin-right: 200px;
+    border: 3px solid @white-color;
+    border-radius: 50%;
 }
 
 @media (min-width: @tablet-width) {
     .page-main {
-        width: 660px;
-        margin-top: -185px;
-    
-        /* Временно для сетки */
-        min-height: 0;
+        display: flex;
+        justify-content: space-around;
+        width: 660px;  
+    }
+}
+
+@media (min-width: @tablet-width) {
+    .page-main__name {
+        width: 50%;
+        font-size: 40px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        margin-top: 103px;
+        margin-right: 78px;
+        color: @white-color;
+    }
+}
+
+@media (min-width: @tablet-width) {
+    .page-main__iphone {
+        width: 50%;
+        background-image: url(iphone-5-in-hand-png@2x.png);
+    }
+}
+
+@media (min-width: @tablet-width) {
+    .btn__iphone {
+        width: 300px;
+        height: 55px;
+        padding: 20px 49px;
+        border: solid 3px @white-color;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-top: 268px;
+    }
+}
+
+@media (min-width: @desktop-width) {
+    .page-main {
+        width: 960px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
+@media (min-width: @desktop-width) {
+    .btn__iphone {
+        width: 300px;
+        height: 55px;
+        padding: 19px 32px;
+        border: solid 3px @white-color;
+        border-radius: 50%;
+        margin-right: 130px;
+        margin-top: 337px;
+    }
+}
+
+@media (min-width: @desktop-width) {
+    .page-main__name {
+        font-size: 50px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        margin-top: 121px;
+        margin-right: 166px;
     }
 }
