@@ -1,6 +1,6 @@
 .page-header {
     display: flex;
-    flex-direction: column;
+    min-width: 320px;
     background-color: @dark-color;
 }
 
@@ -9,8 +9,17 @@
 }
 
 .page-header__logo_image {
+    justify-content: flex-start;
+    width: 75px;
     height: 22px;
-    padding: 20px;  
+    padding: 20px; 
+    fill: @white-color; 
+}
+
+.btn-header__close {
+    justify-content: flex-end;
+    width: 24px;
+    height: 23px;
 }
 
 @media (min-width: @tablet-width) {
@@ -23,14 +32,6 @@
     .page-header__logo_image {
         height: 40px;
       }
-    }
-
-    .burger-menu {
-        width: 50px;
-        height: 24px;
-        height: 24px;
-        margin-left: 20px;
-        padding: 20px;  
     }
 
     .icon icon-burger {
