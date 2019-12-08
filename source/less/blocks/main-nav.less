@@ -1,20 +1,27 @@
 .main-nav {
     display: flex;
+    margin: auto;
+    margin-top: 70px;
+    margin-left: -430px;
+    
+} 
+
+.main-nav__wrapper {
+    display: flex;
     flex-direction: column;
     background-color: @dark-color;
     font-size: 18px;
     font-weight: bold;
     line-height: 1.78;
     min-width: 320px;
-    margin: 0 auto;
-} 
-
+}
+    
 .main-nav__list {
     margin: 0;
     padding: 0;
 }
 
-@media (min-width: @tablet-width) {
+ @media (min-width: @tablet-width) {
     .main-nav {
         width: auto;
         margin: 0;
