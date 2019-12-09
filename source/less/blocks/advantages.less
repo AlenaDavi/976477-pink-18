@@ -5,6 +5,10 @@
 .advantages__container {
     flex-direction: column;
     flex-wrap: wrap;
+    position: absolute;
+    top: 900px;
+    right: 50px;
+
 }
  
 .advantages__header  {
@@ -27,6 +31,7 @@
     text-align: center;
     color: @dark-color;
     background-color: @light-grey;
+    margin-left: 30px;
 }
 
 .advantages__description {
@@ -38,24 +43,9 @@
     background-color: @light-grey;
 }
 
-@media (min-width: @tablet-width) {
-    .advantages__container {
-        display: flex;
-        justify-content: space-around;
-        background-color: @light-grey;
-        color: @dark-color;
-    }
+.advantages__iphone {
+    margin-left: 100px;
+    background-color: @light-grey;
 }
 
-@media (min-width: @desktop-width) {
-    .advantages__header {
-        font-size: 50px;
-        font-weight: 300;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
-        text-align: center;
-        
-    }
-}
 
