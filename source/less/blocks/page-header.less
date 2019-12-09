@@ -3,10 +3,17 @@
     min-width: 320px;
     background-color: @dark-color;
 }
+@media (max-width: 200px) {
+    .page-header__logo {
+        justify-content: flex-start;
+        padding: 20px;
+    }
+}
 
-.page-header__logo {
-    justify-content: flex-start;
-    padding: 20px;
+@media (max-width: 200px) {
+    .page-header__logo_2 {
+        display: none;
+    }
 }
 
 .btn-header__close {
@@ -19,15 +26,18 @@
    
 }
 
+
+
 @media (min-width: @tablet-width) {
-    .page-header__logo {
+    .page-header__logo_2 {
+        background-image: url("img/logotype-white-tablet-svg.svg");
         height: 40px;
     }
 }
 
 @media (min-width: @desktop-width) {
     .page-header__logo {
-        height: 40px;
+       
       }
     }
 
