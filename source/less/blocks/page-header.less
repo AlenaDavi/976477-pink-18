@@ -3,15 +3,16 @@
     min-width: 320px;
     background-color: @dark-color;
 }
-@media (max-width: 200px) {
-    .page-header__logo {
+
+@media (min-width: 320px) {
+    .page-header__logo_m{
         justify-content: flex-start;
         padding: 20px;
     }
 }
 
-@media (max-width: 200px) {
-    .page-header__logo_2 {
+@media (min-width: 320px) {
+    .page-header__logo_t {
         display: none;
     }
 }
@@ -29,9 +30,15 @@
 
 
 @media (min-width: @tablet-width) {
-    .page-header__logo_2 {
+    .page-header__logo_t {
         background-image: url("img/logotype-white-tablet-svg.svg");
         height: 40px;
+    }
+}
+
+@media (min-width: @tablet-width) {
+    .page-header__logo_m {
+        display: none;
     }
 }
 
