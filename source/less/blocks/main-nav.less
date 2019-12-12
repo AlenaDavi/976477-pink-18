@@ -1,9 +1,5 @@
 .main-nav {
-    display: flex;
-    margin: auto;
-    margin-top: 70px;
-    margin-left: -430px;
-    
+    margin: 0 auto;
 } 
 
 .main-nav__wrapper {
@@ -13,39 +9,33 @@
     font-size: 18px;
     font-weight: bold;
     line-height: 1.78;
-    min-width: 320px;
+    
 }
     
 .main-nav__list {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
  @media (min-width: @tablet-width) {
     .main-nav {
-        width: auto;
         margin: 0;
     }
 }
 
 .main-nav__wrapper {
     display: flex;
-    justify-content: center;
-    width: 660px;
+    flex-direction: column;
     margin: 0 auto;
+   
+    
+
 }
 
-.site-list__item {
-    width: 570px;
-    min-height: 63px;
-    color: @white-color;
-  }
- 
+
 @media (min-width: @desktop-width) {
     .main-nav__wrapper {
-        width: 960px;
+        
       }
-      .site-list {
-        width: 780px;
-    }
-}
+    }    
