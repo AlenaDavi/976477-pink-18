@@ -3,7 +3,7 @@
 }
 
 .page-main__example {
-
+    margin: 0 auto;
 }
 
 
@@ -46,11 +46,17 @@
 
 
 @media (min-width: @tablet-width) {
-    .page-main {
+    .page-main__example {
         display: flex;
         justify-content: space-around;
         width: auto;
+
     }
+    // .page-main {
+    //     display: flex;
+    //     justify-content: space-around;
+    //     width: auto;
+    // }
 
     .page-main__name {
         font-size: 40px;
@@ -71,10 +77,10 @@
         text-align: center;
         padding: 20px 49px;
         position: relative;
+        border: solid 3px @white-color;
     }
     .page-main__iphone {
         display: flex;
-        justify-content: flex-end;
-        margin-left: 30px;
+        margin-right: auto;
     }
 }

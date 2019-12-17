@@ -1,11 +1,8 @@
 .applications-page {
-    display: flex;
-    min-width: 320px;
+    display: inline-block;
     background-color: @dark-color;
-    margin-top: 220px; 
-    margin-left: 10px;
-    
-    
+   
+      
 }
 
 .applications-page_apple {
@@ -15,6 +12,15 @@
 .applications-page_android {
     margin-right: -200px;
 
+}
+
+@media (min-width: @tablet-width) {
+    .applications-page {
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+
+    } 
 }
 
 
