@@ -1,8 +1,14 @@
 .page-main {
-    display: flex;
-   
     background-color: @dark-color;
 }
+
+.page-main__example {
+
+}
+
+
+
+
 
 .page-main__name {
     font-size: 24px;
@@ -19,13 +25,11 @@
 
 .page-main__iphone {
     background-image: url(img/iphone-5-in-hand-png.png);
-   
     height: auto;
     margin-right: 230px;
     margin-top: 100px;
     position: absolute;
-    left: 20px;
-     
+    left: 20px;  
 }
 
 .btn__iphone {
@@ -40,15 +44,14 @@
     bottom: -240px;
 }
 
+
 @media (min-width: @tablet-width) {
     .page-main {
         display: flex;
         justify-content: space-around;
         width: auto;
     }
-}
 
-@media (min-width: @tablet-width) {
     .page-main__name {
         font-size: 40px;
         font-weight: 300;
@@ -57,9 +60,7 @@
         margin-right: 78px;
         margin-top: 103px;
     }
-}
 
-@media (min-width: @tablet-width) {
     .btn__iphone {
         width: 300px;
         height: 55px;
@@ -71,13 +72,9 @@
         padding: 20px 49px;
         position: relative;
     }
-}
-
-@media (min-width: @tablet-width) {
     .page-main__iphone {
         display: flex;
         justify-content: flex-end;
         margin-left: 30px;
     }
-
 }
