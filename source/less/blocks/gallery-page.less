@@ -1,0 +1,24 @@
+.gallery-page {
+    background-color: @dark-color;
+}
+
+.first-photo {
+    width: 320px;
+    height: 462px; 
+}
+
+.tablet-photo {
+    display: none;
+}
+
+
+@media (min-width: @tablet-width) {
+    .tablet-photo {
+        width: 660px;
+        height: 729px;
+    }
+    .first-photo {
+        display: none;
+    }
+}
+       
